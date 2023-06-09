@@ -1,0 +1,187 @@
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  button {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  #searchInput {
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  #movieInfo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  #movieInfo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #movieInfo p {
+    margin-bottom: 5px;
+  }
+  
+  #movieInfo img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  #sourcesContainer {
+    margin-top: 20px;
+  }
+  
+  #sourcesContainer h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #sourcesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #sourcesList li {
+    margin-bottom: 5px;
+  }
+  
+  #trailerContainer {
+    margin-top: 20px;
+  }
+  
+  #trailerContainer iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    #searchInput {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    #searchButton {
+      width: 100%;
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  .info-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-container h2 {
+    margin-top: 0;
+  }
+  
+  .info-container p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .trailer-container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .trailer-container p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .trailer-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    display: block;
+  }
+  
